@@ -85,3 +85,8 @@ then: `python manage.py migrate`
 
 - to run tests
 `python challenge_2/tests.py`
+
+
+#### Users in system
+- username: `thomas3`
+- password: `123456tom`
