@@ -21,6 +21,7 @@
 6. Install requirements in the virtualenv:  
 `pip3 install -r requirements.txt`
 
+#### Relational database id **Sqlite3** if you need to switch to **PostgreSQL** you will find installation below
 ##### Relational database dependencies (PostgreSQL):
 1. Install components for Ubuntu:  
 `sudo apt-get update`  
