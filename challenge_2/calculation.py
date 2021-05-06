@@ -5,6 +5,9 @@ def calculate_paid_values(bidders):
     if not isinstance(bidders, dict):
         raise ValueError("Bidders must be a dict")
 
+    if bidders is None or bidders == {}:
+        return "No Winners"
+
     data_sorted = dict(
         OrderedDict(reversed(sorted(bidders.items(), key=lambda kv: (kv[1], kv[0]))))
     )
