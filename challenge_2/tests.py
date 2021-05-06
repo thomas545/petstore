@@ -22,5 +22,10 @@ class TestCalculation(unittest.TestCase):
         err = ex.exception
         self.assertEqual(str(err), "Bidders must be a dict")
 
+        # Test no winners case
+        bidders = {}
+        result = calculation.calculate_paid_values(bidders)
+        self.assertEqual(result, "No Winners")
+
 if __name__ == "__main__":
     unittest.main()
