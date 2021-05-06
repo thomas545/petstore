@@ -61,6 +61,12 @@ then: `python manage.py migrate`
     - `/auth/login/`
 
 ### Petstore Endpoints:
+- **You need to add a pet from the admin panel to be able to place a bid on it**
+
+- Admin Panel URL:
+    - `/admin/`
+    - username: `thomas`
+    - password: `123`
 
 - Add bid on pet
     - Method: POST
