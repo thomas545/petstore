@@ -48,7 +48,7 @@
 `python manage.py makemigrations`  
 then: `python manage.py migrate`
 
-
+## Challenge 1
 ### Authentication Endpoints:
 
 - Register
@@ -68,3 +68,13 @@ then: `python manage.py migrate`
 - GET all bids on pet
     - Method: GET
     - `/pets/{pet_id}/bids/`
+
+
+## Challenge 2
+* Script to calculate the amount to be paid by the winner and the losing bidders
+
+- to run the calculation function and see the result
+`python challenge_2/execution.py`
+
+- to run tests
+`python challenge_2/tests.py`
